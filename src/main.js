@@ -9,13 +9,12 @@
         if (isArithmetic(arr)){
             return "Arithmetic";
         } 
-        if(isGeometric(arr)){
+        if(isGeometric(arr)){s
             return "Geometric";
         }
         if (!isArithmetic || isGeometric) {
             return "-1";
         }
-        
     }
     
     const isArithmetic = (arr) => {
