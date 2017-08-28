@@ -1,0 +1,29 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "Checking if an Array of numbers is Arithmetic or Geometric",
+  "main": "src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruqoyah/aritGeo.git"
+  },
+  "keywords": [
+    "Arithmetic",
+    "Geometric"
+  ],
+  "author": "Rukayat Odukoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruqoyah/aritGeo/issues"
+  },
+  "homepage": "https://github.com/Ruqoyah/aritGeo#readme",
+  "dependencies": {
+    "chai": "^4.1.1"
+  }
+}
