@@ -36,7 +36,8 @@
         }
         return false
     }
-        
+    
+         
 module.exports = {
     aritGeo: aritGeo,
     isArithmetic: isArithmetic,
