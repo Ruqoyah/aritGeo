@@ -9,7 +9,7 @@
         if (isArithmetic(arr)){
             return "Arithmetic";
         } 
-        if(isGeometric(arr)){s
+        if(isGeometric(arr)){
             return "Geometric";
         }
         if (!isArithmetic || isGeometric) {
@@ -19,7 +19,7 @@
     
     const isArithmetic = (arr) => {
         const diff = arr[1]-arr[0];
-        for (let i = 2; i < arr.length; i++){
+        for (let i = 2; i <= arr.length; i++){
             if((arr[i+1] - arr[i]) == diff){
                 return true;
             }
@@ -29,7 +29,7 @@
     
     const isGeometric = (arr) => {
         const div =(arr[1]/arr[0])
-        for (let i = 2; i<arr.length; i++){
+        for (let i = 2; i <= arr.length; i++){
             if (arr[i+1] / arr[i] == div){
                 return true
             }
